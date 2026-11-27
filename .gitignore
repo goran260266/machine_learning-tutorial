@@ -1,0 +1,22 @@
+﻿# Virtuelle Umgebung
+.venv/
+
+# Python-Artefakte
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Test-, Lint- und Typ-Caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Coverage-Berichte
+.coverage
+coverage.json
+htmlcov/
+
+# Umgebungsvariablen und Geheimnisse
+.env
